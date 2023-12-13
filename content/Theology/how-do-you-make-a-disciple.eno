@@ -1,0 +1,29 @@
+﻿title: How do You Make a Disciple?
+subtitle: Subtitle
+pictureAlt: Lion
+
+keywords:
+ - visual
+
+#section
+type: hero
+
+buttons:
+ - flowchart
+ - pdf
+
+#section
+type: article
+
+-- body
+To do
+-- body
+
+#section
+type: relatedArticles
+items:
+ - counseling-is-an-essential-part-of-discipleship
+
+#css
+heroPadding: 6rem 0 3rem 0
+heroOpacity: 0.2

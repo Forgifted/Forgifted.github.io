@@ -1,0 +1,30 @@
+﻿title: Counseling Is an Essential Part of Discipleship
+subtitle: Subtitle
+pictureAlt: Lion
+
+keywords:
+ - visual
+
+#section
+type: hero
+
+buttons:
+ - flowchart
+ - pdf
+
+#section
+type: article
+
+-- body
+To do
+-- body
+
+#section
+type: relatedArticles
+items:
+ - problem-with-professional-counseling-models
+ - family-of-god-systems-approach-to-healing
+
+#css
+heroPadding: 6rem 0 3rem 0
+heroOpacity: 0.2

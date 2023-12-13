@@ -1,0 +1,58 @@
+title: Forgifted
+subtitle: The gift economy at the heart of Christianity.
+pictureAlt: Man sitting against a brick wall holding a Bible
+
+mainKeywords:
+ - counseling
+ - gift
+ - theology
+keywords:
+ - christian
+ - counseling
+ - theology
+
+#section
+type: hero
+articleTitle: If salvation is a gift,<br/>then why are we so contractual?
+videoButtonCaption: START HERE
+cssClass: indexHero fullscreen
+
+# section
+type: cards
+title: Theology of the Gift
+description: If salvation is a gift, Where you start matters. Where you end matters. Our healing models start and end with God; anything else would be idolatry.
+
+items:
+ - gifted-to-give
+ - how-do-you-make-a-disciple
+
+# section
+type: cards
+title: Theology of Counseling
+description: Salvation is a gift, not a contract. Then why are we so contractual? How to enter a gift economy.
+
+items:
+ - problem-with-professional-counseling-models
+ - counseling-is-an-essential-part-of-discipleship
+ - family-of-god-systems-approach-to-healing
+
+#section
+type: contact
+id: request
+title: Start a conversation
+supports: phone
+twoPanels: true
+pictureAlt: Girl calling on a phone
+description: Theology is best done in community. Email Michael a question about these videos, or request him to give you a call.
+endPoint: https://services.forgifted.org/contact
+
+messages:
+ - Custom~
+ - Consultation~Hi, I'm a pastor/mission organization head and would like your advice on how to set up a funding/discipleship/counseling system in our church/organization based on the gift economy.
+ - Distribution~Hi, I would like to show or redistribute one of these videos, or get it translated to my language. [The answer will be yes because everything on this site is to be a gift. Just let Michael know how he can help you in your goals.]
+
+#css
+heroPadding: 5rem 0rem 5rem 2rem
+heroOpacity: 0.4
+heroOverlay-color: #3f485d
+progressIndicatorHeight: 0

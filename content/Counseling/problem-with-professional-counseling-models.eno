@@ -1,0 +1,31 @@
+﻿title: The Problem with Professional Counseling Models
+subtitle: Subtitle
+pictureAlt: Lion
+
+keywords:
+ - visual
+
+#section
+type: hero
+
+buttons:
+ - flowchart
+ - pdf
+
+#section
+type: article
+
+-- body
+To do
+-- body
+
+#section
+type: relatedArticles
+items:
+ - counseling-is-an-essential-part-of-discipleship
+ - family-of-god-systems-approach-to-healing
+ - gifted-to-give
+
+#css
+heroPadding: 6rem 0 3rem 0
+heroOpacity: 0.2

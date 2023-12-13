@@ -1,0 +1,58 @@
+title: Forgifted.org
+absUrl: https://forgifted.org
+pictureAlt: Dove flying out of a gift box
+tagline: “Gifted to give. Forgiven to forgive.”
+viewport-margin: 93
+intersection-ratios: 0.1
+
+menuItems:
+ - Theology
+ - Counseling
+ - Request
+
+#fonts
+##Lato
+300: https://fonts.gstatic.com/s/lato/v17/S6u9w4BMUTPHh7USSwiPGQ.woff2
+400: https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjx4wXg.woff2
+700: https://fonts.gstatic.com/s/lato/v17/S6u9w4BMUTPHh6UVSwiPGQ.woff2
+900: https://fonts.gstatic.com/s/lato/v17/S6u9w4BMUTPHh50XSwiPGQ.woff2
+
+#components
+default:
+ - progressIndicator
+ - scrollToTopButton
+index:
+ - highlightMenu
+ - scrollToTopButton
+
+#postProcessors
+default:
+ - VerseReplacer
+ - CssTrimer
+index:
+ - CssTrimer
+404:
+ - CssTrimer
+
+#css
+body-font: Lato, sans-serif
+card-stock-padding: 2rem 0
+card-stock-background: linear-gradient(to right, #101825, #272F46)
+card-stock-container-background: white
+card-stock-container-border-radius: 32px
+card-stock-container-box-shadow: 0px 0px 13px 3px #100F35
+card-stock-container-padding: 1rem 2rem
+card-stock-section-subtitle-margin: 3rem 0 2rem 0
+hamburgerMenuBreak: 1020px
+menu-container-padding: 10px 1rem 3px 0.5rem
+navbar-background: linear-gradient(to right, #101825, #272F46)
+navbar-caption-font-size: 2.4rem
+navbar-caption-wrap-margin: -7px 0 0 0
+navbar-logo-margin: 0 0.4rem 0 0
+navbar-logo-width: 80px
+navbar-nav-a-last-border-radius: 24px
+navbar-nav-a-last-padding: 0 12px
+navbar-nav-a-last-background-color: rgb(255, 217, 83)
+navbar-nav-a-last-color: #101825
+scrollToTopButton-color: #5D9EFF
+submit-button-background-color: #101825
