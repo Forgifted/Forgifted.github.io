@@ -19,9 +19,11 @@ menuItems:
 
 #components
 default:
+ - headerBackground
  - progressIndicator
  - scrollToTopButton
 index:
+ - headerBackground
  - highlightMenu
  - scrollToTopButton
 
@@ -55,5 +57,11 @@ navbar-nav-a-last-padding: 0 12px
 navbar-nav-a-last-background-color: rgb(255, 217, 83)
 navbar-nav-a-last-color: #101825
 scrollToTopButton-color: #5D9EFF
+topWrapper-background: linear-gradient(to right, #101825, #272F46)
 submit-button-background-color: #101825
 videoLeftH1-color: rgb(255, 217, 83)
+
+sectionFirst-background: url("images/sectionFirst.svg") no-repeat border-box
+sectionFirst-background-size: 25rem
+sectionFirst-background-position: 16px -37px
+header-background-position: 16px 34px

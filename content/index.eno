@@ -1,4 +1,4 @@
-title: Forgifted
+title: The Gospel Is a Gift, Not a Contract
 subtitle: The gift economy at the heart of Christianity.
 pictureAlt: Man sitting against a brick wall holding a Bible
 
@@ -12,10 +12,8 @@ keywords:
  - theology
 
 #section
-type: hero
-articleTitle: If salvation is a gift,<br/>then why are we so contractual?
-videoButtonCaption: START HERE
-cssClass: indexHero fullscreen
+type: video
+videoId: S9PCQkc5COE
 
 # section
 type: cards
