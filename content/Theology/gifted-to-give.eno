@@ -149,9 +149,3 @@ You’re gifted to give, not gifted to hoard. And you’re forgiven to forgive, 
 type: relatedArticles
 items:
  - family-of-god-systems-approach-to-healing
-
-#css
-heroPadding: 5rem 0rem 5rem 2rem
-heroOpacity: 0.4
-heroOverlay-color: #3f485d
-progressIndicatorHeight: 0

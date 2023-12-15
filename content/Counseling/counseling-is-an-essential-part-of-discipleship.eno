@@ -6,11 +6,8 @@ keywords:
  - visual
 
 #section
-type: hero
-
-buttons:
- - flowchart
- - pdf
+type: video
+videoId: S9PCQkc5COE
 
 #section
 type: article
@@ -24,7 +21,3 @@ type: relatedArticles
 items:
  - problem-with-professional-counseling-models
  - family-of-god-systems-approach-to-healing
-
-#css
-heroPadding: 6rem 0 3rem 0
-heroOpacity: 0.2

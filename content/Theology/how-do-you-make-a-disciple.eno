@@ -6,11 +6,8 @@ keywords:
  - visual
 
 #section
-type: hero
-
-buttons:
- - flowchart
- - pdf
+type: video
+videoId: S9PCQkc5COE
 
 #section
 type: article
@@ -23,7 +20,3 @@ To do
 type: relatedArticles
 items:
  - counseling-is-an-essential-part-of-discipleship
-
-#css
-heroPadding: 6rem 0 3rem 0
-heroOpacity: 0.2
