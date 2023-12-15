@@ -37,6 +37,7 @@ index:
  - CssTrimer
 
 #css
+anchor-top-margin: -6.3rem
 body-font: Lato, sans-serif
 card-stock-padding: 2rem 0
 card-stock-background: linear-gradient(to right, #101825, #272F46)
