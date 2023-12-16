@@ -49,9 +49,3 @@ messages:
  - Custom~
  - Consultation~Hi, I'm a pastor/mission organization head and would like your advice on how to set up a funding/discipleship/counseling system in our church/organization based on the gift economy.
  - Distribution~Hi, I would like to show or redistribute one of these videos, or get it translated to my language. [The answer will be yes because everything on this site is to be a gift. Just let Michael know how he can help you in your goals.]
-
-#css
-heroPadding: 5rem 0rem 5rem 2rem
-heroOpacity: 0.4
-heroOverlay-color: #3f485d
-progressIndicatorHeight: 0

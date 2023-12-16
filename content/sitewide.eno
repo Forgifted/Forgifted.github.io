@@ -37,16 +37,14 @@ index:
  - CssTrimer
 
 #css
-body-background: linear-gradient(to right, #101825, #272F46)
-navbar-background: linear-gradient(to right, #101825, #272F46)
-
-sectionFirst-background: url("images/sectionFirst.svg") no-repeat border-box
-sectionFirst-background-size: 25rem
-sectionFirst-background-position: 16px -37px
-sectionFirst-background-position-hamburgerMenuBreak: 16px -60px
-header-background-position: 16px 34px
+$blueGradientLeft: #101825
+$blueGradientRight: #272F46
+$backgroundGradient: linear-gradient(to right, $blueGradientLeft, $blueGradientRight)
+$yellow: rgb(255, 217, 83)
+$doveLeft: 16px
 
 anchor-top-margin: -6.3rem
+body-background: $backgroundGradient
 body-font: Lato, sans-serif
 card-stock-padding: 2rem 0
 card-stock-container-background: white
@@ -55,15 +53,21 @@ card-stock-container-box-shadow: 0px 0px 13px 3px #100F35
 card-stock-container-padding: 1rem 2rem
 card-stock-section-subtitle-margin: 3rem 0 2rem 0
 hamburgerMenuBreak: 1080px
+header-background-position: 16px 34px
 menu-container-padding: 10px 1rem 3px 0.5rem
+navbar-background: $backgroundGradient
 navbar-caption-font-size: 2.4rem
 navbar-caption-wrap-margin: -7px 0 0 0
 navbar-logo-margin: 0 0.4rem 0 0
 navbar-logo-width: 80px
 navbar-nav-a-last-border-radius: 24px
 navbar-nav-a-last-padding: 0 12px
-navbar-nav-a-last-background-color: rgb(255, 217, 83)
-navbar-nav-a-last-color: #101825
+navbar-nav-a-last-background-color: $yellow
+navbar-nav-a-last-color: $blueGradientLeft
 scrollToTopButton-color: #5D9EFF
-submit-button-background-color: #101825
-videoLeftH1-color: rgb(255, 217, 83)
+sectionFirst-background: url("images/sectionFirst.svg") no-repeat border-box
+sectionFirst-background-size: 25rem
+sectionFirst-background-position: 16px -37px
+sectionFirst-background-position-hamburgerMenuBreak: 16px -60px
+submit-button-background: $blueGradientLeft
+videoLeftH1-color: $yellow
