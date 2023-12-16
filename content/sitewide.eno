@@ -69,5 +69,7 @@ sectionFirst-background: url("images/sectionFirst.svg") no-repeat border-box
 sectionFirst-background-size: 25rem
 sectionFirst-background-position: 16px -37px
 sectionFirst-background-position-hamburgerMenuBreak: 16px -60px
+sectionRelatedArticles-padding-tablet: unset
+sectionRelatedArticles-padding-phone: unset
 submit-button-background: $blueGradientLeft
 videoLeftH1-color: $yellow
