@@ -1,5 +1,5 @@
 title: The Gospel Is a Gift, Not a Contract
-subtitle: The gift economy at the heart of Christianity.
+subtitle: Participating in God's gift economy is at the heart of Christianity.
 pictureAlt: Man sitting against a brick wall holding a Bible
 
 mainKeywords:
@@ -14,7 +14,7 @@ videoId: S9PCQkc5COE
 # section
 type: cards
 title: Theology of the Gift
-description: If salvation is a gift, Where you start matters. Where you end matters. Our healing models start and end with God; anything else would be idolatry.
+description: If salvation is a gift, then relationships should be a gift exchange, not a contract. These articles examine the Christian life as a gift.
 
 items:
  - gifted-to-give
@@ -24,7 +24,7 @@ items:
 # section
 type: cards
 title: Theology of Counseling
-description: Salvation is a gift, not a contract. Then why are we so contractual? How to enter a gift economy.
+description: How do you transform counseling from an expensive transaction into a gift economy of love? A three part series on counseling in the church.
 
 items:
  - problem-with-professional-counseling-models
@@ -47,4 +47,4 @@ messages:
  - Distribution~Hi, I would like to show or redistribute one of these videos, or get it translated to my language. [The answer will be yes because everything on this site is to be a gift. Just let Michael know how he can help you in your goals.]
 
 #css
-section-first-padding: 0 0 3rem 0;
+sectionFirst-padding: unset

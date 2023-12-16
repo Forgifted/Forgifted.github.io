@@ -32,7 +32,6 @@ toc:
 
 #section
 type: article
-cssClass: afterToc
 
 -- body
 @[header](Definition)
