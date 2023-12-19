@@ -47,6 +47,7 @@ $doveLeft: 16px
 anchor-top-margin: -8rem
 anchor-hover-color: #0b68bb
 articleContainer-a-hover: $anchor-hover-color
+articleContainer-padding-phone: 1rem 0
 body-background: $backgroundGradient
 body-font: Lato, sans-serif
 card-stock-padding: 2rem 0
@@ -72,17 +73,17 @@ scrollToTopButton-color: #5D9EFF
 scrollTarget-top: -100px
 section1Wrapper-padding: 0 0 2rem 0
 section-container-border-radius: 2rem
-sectionFirst-background: url("images/sectionFirst.svg") no-repeat border-box
-sectionFirst-background-size: 25rem
-sectionFirst-background-position: 16px -37px
-sectionFirst-background-position-hamburgerMenuBreak: 16px -60px
 section1Wrapper-padding-phone: 1rem 0 0 0
 section2Wrapper-padding: 2rem 0 4rem 0
-section2Wrapper-padding-phone: 2rem 0 2rem 0
+section2Wrapper-padding-phone: 3rem 0 3rem 0
 sectionRelatedArticles-padding-tablet: unset
 sectionRelatedArticles-padding-phone: 2rem 0 3rem 0
 section-subtitle-font-weight: 400
 tocLeft-h2-margin: 0 0 1rem 0
+topWrapper-background: url("images/sectionFirst.svg") no-repeat border-box
+topWrapper-background-size: 25rem
+topWrapper-background-position: 16px -37px
+topWrapper-background-position-hamburgerMenuBreak: 16px -60px
 submit-button-background: $blueGradientLeft
 videoContainer-padding-phone: 2rem 0 0 0
 videoLeftH1-color: $yellow

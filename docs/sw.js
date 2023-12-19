@@ -227,7 +227,14 @@ function modifyResponse(networkResponse, values) {
             function push() {
                 return reader.read().then(({ done, value }) => {
                     if (value !== undefined) {
-                        data.push.apply(data, value)
+                        if (data.length === 0) {
+                            data = value;
+                        } else {
+                            const len = value.length;
+                            for(let i = 0; i < len; i++) {
+                                data.push(value[i]);
+                            }
+                        }
                     }
                     if (done) {
                         let str = new TextDecoder("utf-8").decode(Uint8Array.from(data));
