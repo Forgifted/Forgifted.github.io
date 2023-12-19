@@ -44,19 +44,17 @@ $backgroundGradient: linear-gradient(to right, $blueGradientLeft, $blueGradientR
 $yellow: rgb(255, 217, 83)
 $doveLeft: 16px
 
-anchor-top-margin: -6.3rem
+anchor-top-margin: -8rem
 anchor-hover-color: #0b68bb
 articleContainer-a-hover: $anchor-hover-color
-article-padding: 0.01px 0 4rem 0
 body-background: $backgroundGradient
 body-font: Lato, sans-serif
 card-stock-padding: 2rem 0
 card-stock-container-background: white
-card-stock-container-border-radius: 32px
 card-stock-container-box-shadow: 0px 0px 13px 3px #100F35
 card-stock-container-padding: 1rem 2rem
 card-stock-section-subtitle-margin: 3rem 0 2rem 0
-hamburgerMenuBreak: 1080px
+hamburgerMenuBreak: 1120px
 header-background-position: 16px 34px
 menu-container-padding: 10px 1rem 3px 0.5rem
 navbar-background: $backgroundGradient
@@ -71,18 +69,20 @@ navbar-nav-a-last-padding: 0 12px
 navbar-nav-a-last-background-color: $yellow
 navbar-nav-a-last-color: $blueGradientLeft
 scrollToTopButton-color: #5D9EFF
+scrollTarget-top: -100px
+section1Wrapper-padding: 0 0 2rem 0
+section-container-border-radius: 2rem
 sectionFirst-background: url("images/sectionFirst.svg") no-repeat border-box
 sectionFirst-background-size: 25rem
 sectionFirst-background-position: 16px -37px
 sectionFirst-background-position-hamburgerMenuBreak: 16px -60px
-section1Wrapper-padding-phone: 3rem 0 0 0
+section1Wrapper-padding-phone: 1rem 0 0 0
 section2Wrapper-padding: 2rem 0 4rem 0
 section2Wrapper-padding-phone: 2rem 0 2rem 0
 sectionRelatedArticles-padding-tablet: unset
-sectionRelatedArticles-padding-phone: 3rem 0
+sectionRelatedArticles-padding-phone: 2rem 0 3rem 0
 section-subtitle-font-weight: 400
-tocContainer-padding: 3rem 0 0 0
 tocLeft-h2-margin: 0 0 1rem 0
 submit-button-background: $blueGradientLeft
-videoContainer-padding-phone: 3rem 0 0 0
+videoContainer-padding-phone: 2rem 0 0 0
 videoLeftH1-color: $yellow
