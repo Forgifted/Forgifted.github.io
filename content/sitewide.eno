@@ -53,7 +53,7 @@ body-font: Lato, sans-serif
 card-stock-padding: 2rem 0
 card-stock-container-background: white
 card-stock-container-box-shadow: 0px 0px 13px 3px #100F35
-card-stock-container-padding: 1rem 2rem
+card-stock-container-padding: 1rem 2rem 2rem 2rem
 card-stock-section-subtitle-margin: 3rem 0 2rem 0
 hamburgerMenuBreak: 1120px
 header-background-position: 16px 34px
@@ -73,9 +73,10 @@ scrollToTopButton-color: #5D9EFF
 scrollTarget-top: -100px
 section1Wrapper-padding: 0 0 2rem 0
 section-container-border-radius: 2rem
+section-container-padding-tablet: 1rem 2rem 2rem 2rem
 section1Wrapper-padding-phone: 1rem 0 0 0
 section2Wrapper-padding: 2rem 0 4rem 0
-section2Wrapper-padding-phone: 3rem 0 3rem 0
+section2Wrapper-padding-phone: 2rem 0 2rem 0
 sectionRelatedArticles-padding-tablet: unset
 sectionRelatedArticles-padding-phone: 2rem 0 3rem 0
 section-subtitle-font-weight: 400
