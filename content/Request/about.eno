@@ -1,0 +1,38 @@
+title: Introducing<br>Michael Hu
+pictureAlt: Michael Hu
+tooltip: Portrait of Michael Hu
+
+#section
+type: hero
+alignRight: true
+
+mainKeywords:
+ - Michael Hu
+ - about
+
+#section
+type: article
+
+-- body
+Michael Hu has been a career missionary since 2006, serving with Wycliffe Bible Translators in Cambodia, Philippines, Thailand, and Malaysia in roles ranging from IT support to Asia-wide administration. He currently serves as the director of the Asia Member Care Initiative as a pastor to pastors and missionaries, advising and counseling on matters ranging from inter-organizational conflict to suicide intervention. He is currently pursuing a PhD in theology on the topic of the gift economy. Forgifted.org is the fruits of that research. He is married to the only woman he has ever loved, Elizabeth, and they have three children who are strong believers and play an active role in ministry.
+-- body
+
+#section
+type: contact
+id: request
+title: Contact Michael
+supports: phone
+twoPanels: true
+pictureAlt: Girl calling on a phone
+description: Ask Michael a question about the gift economy or counseling, or request him to give you a call.
+endPoint: https://services.forgifted.org/contact
+
+messages:
+ - Notify~Please add me to your email prayer newsletter list and notify me when you release new material.&#10;&#10;[We send one out about once every two months.]
+ - Consult~Hi, I'm a pastor/mission organization head and would like your advice on how to set up a funding/discipleship/counseling system in our church/organization based on the gift economy.
+ - Distribute~Hi, I would like to show or redistribute one of these videos, or get it translated to my language.&#10;&#10;[The answer will be yes because everything on this site is a gift. Just let Michael know how he can help you in your goals.]
+ - Custom~
+
+#css
+heroPadding: 10rem 0 10rem 0
+heroOpacity: 0
