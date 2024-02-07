@@ -23,6 +23,16 @@ items:
 
 # section
 type: cards
+title: Theology of the&nbsp;Giver
+description: The Holy Spirit is the Divine Giver. There is no salvation or Christian life without the Holy Spirit.
+
+items:
+ - divine-giver
+ - subversive-giver
+ - generous-giver
+
+# section
+type: cards
 title: Theology of Counseling
 description: How do you transform counseling from an expensive transaction into a gift economy of love? A three part series on counseling in the church.
 

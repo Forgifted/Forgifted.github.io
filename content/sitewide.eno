@@ -7,7 +7,8 @@ viewport-margin: 93
 intersection-ratios: 0.1
 
 menuItems:
- - Theology
+ - Gift
+ - Giver
  - Counseling
  - Request
 
@@ -67,7 +68,7 @@ contact-radio-font-size: $contactRadioFontSize
 contact-radio-font-size-tablet: 1.1rem
 contact-radio-font-size-phone: $contactRadioFontSize
 copyright-margin: 2rem 0
-hamburgerMenuBreak: 1120px
+hamburgerMenuBreak: 1151px
 header-background-position: 16px 34px
 heroPadding: 10rem 0 5rem 0
 heroOpacity: 0.4
@@ -90,8 +91,8 @@ section1Wrapper-padding: 0 0 2rem 0
 section-container-border-radius: 2rem
 section-container-padding-tablet: 1rem 2rem 2rem 2rem
 section1Wrapper-padding-phone: 1rem 0 0 0
-section2Wrapper-padding: 2rem 0 4rem 0
-section2Wrapper-padding-phone: 2rem 0 2rem 0
+section3Wrapper-padding: 2rem 0 4rem 0
+section3Wrapper-padding-phone: 2rem 0 2rem 0
 sectionRelatedArticles-padding-tablet: unset
 sectionRelatedArticles-padding-phone: 2rem 0 3rem 0
 section-subtitle-font-weight: 400
