@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 253771 179480" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Stairs">
+        <path d="M94617.5,125379L94620.6,163515L31247.9,120525L31248.2,91859.9L94617.4,125379L94617.6,125379L94617.5,125379Z" style="fill:rgb(221,26,33);"/>
+        <g transform="matrix(1.0091,0,0,1.00985,-284.323,-773.302)">
+            <path d="M108090,118455L94048.8,125161L31247.9,91730.1L46372.3,87720.2L108090,118455Z" style="fill:rgb(188,27,39);"/>
+        </g>
+        <path d="M108784,103585L108789,118847L46511.8,87810.5L46375.8,75159.7L108784,103585Z" style="fill:rgb(255,227,79);"/>
+        <path d="M165389,80519.8L108789,103599L46375.8,75159.7L102005,61101L165389,80519.8Z" style="fill:rgb(247,209,18);"/>
+        <path d="M165327,62071L165389,80520L102002,61101L101905,45770.9L165327,62071Z" style="fill:rgb(132,200,226);"/>
+        <path d="M195518,51989.9L165331,62071L101905,45770.8L133460,38763.4L195518,51989.9Z" style="fill:rgb(72,158,206);"/>
+        <path d="M220071,28769.5L195518,35350.5L133632,24851.1L160160,20518.4L220071,28769.5Z" style="fill:rgb(0,146,71);"/>
+        <path d="M195518,35350.5L195518,51989.9L133459,38763.4L133631,24852.9L195518,35350.5Z" style="fill:rgb(0,175,77);"/>
+        <path d="M220071,28769.5L219480,94107.8L94620.2,163515L94620.2,125622L108789,118847L108763,103582L165389,80520L165330,62071L195518,51989.9L195518,35350.5L220071,28769.6L220071,28769.5Z" style="fill:rgb(206,206,208);stroke:rgb(117,143,156);stroke-width:72.75px;"/>
+    </g>
+    <g id="Captions">
+        <g transform="matrix(0.859116,0.511781,3.38271e-17,1.09592,45539.8,118510)">
+            <text x="0px" y="0px" style="font-family:'Lato-Regular', 'Lato', sans-serif;font-size:12449px;">Release</text>
+        </g>
+        <g transform="matrix(0.900443,0.434974,0.00522205,1.00782,59198.9,91795.2)">
+            <text x="0px" y="0px" style="font-family:'Lato-Regular', 'Lato', sans-serif;font-size:11250.7px;">Forbear</text>
+        </g>
+        <g transform="matrix(0.965294,0.261167,-8.67362e-19,0.965836,119182,61937.3)">
+            <text x="0px" y="0px" style="font-family:'Lato-Regular', 'Lato', sans-serif;font-size:10926.6px;">Ratify</text>
+        </g>
+        <g transform="matrix(0.97438,0.189401,0.00224318,1.01915,141486,36615.9)">
+            <text x="0px" y="0px" style="font-family:'Lato-Regular', 'Lato', sans-serif;font-size:10730.3px;">Reconcile</text>
+        </g>
+    </g>
+</svg>
