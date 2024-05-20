@@ -1,9 +1,9 @@
 <?php
+
 // Create this at https://www.callmebot.com/blog/free-api-signal-send-messages/
 // Turn off caller id from the phone app on your Android phone to hide your phone number
 $secrets = file_get_contents("../secrets.txt");
 [$phoneId, $apiKey, $notifyEmail] = preg_split("/\r\n|\n|\r/", $secrets);
-$supportLocalHostTesting = false;
 
 $origin = '';
 if (isset($_SERVER['HTTP_ORIGIN'])) {
@@ -15,14 +15,19 @@ if (0 === strpos($domain, 'services.')) {
 	$domain = substr($domain, strlen('services.'));
 }
 
+header('Expires: Sun, 01 Jan 2014 00:00:00 GMT');
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
+
 // Allow from any origin
+$supportLocalHostTesting = false;
 if (($supportLocalHostTesting && $origin == 'http://localhost') || $origin == "https://$domain") {
 	// Decide if the origin in $_SERVER['HTTP_ORIGIN'] is one
 	// you want to allow, and if so:
 	header("Access-Control-Allow-Origin: $origin");
 	header("Vary: Origin");
 	header('Access-Control-Allow-Credentials: true');
-	header('Access-Control-Max-Age: 86400');    // cache for 1 day
 	header("AMP-Access-Control-Allow-Origin: $origin");
 	header("Access-Control-Expose-Headers: AMP-Access-Control-Allow-Source-Origin");	
 }
@@ -31,7 +36,7 @@ if (($supportLocalHostTesting && $origin == 'http://localhost') || $origin == "h
 if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
 	if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_METHOD'])) {
 		// may also be using PUT, PATCH, HEAD etc
-		header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
+		header("Access-Control-Allow-Methods: GET, OPTIONS");
 	}
 	if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS'])) {
 		header("Access-Control-Allow-Headers: {$_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS']}");
@@ -39,36 +44,36 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
 	exit(0);
 }
 
-if ($_SERVER["REQUEST_METHOD"] !== "POST") {
+if ($_SERVER["REQUEST_METHOD"] !== "GET") {
 	http_response_code(405);
-	exit('I only support POST');
-}
-if (empty($_POST['name']) || empty($_POST['email']) || empty($_POST['message'])) {
-	http_response_code(400);
-	exit('name, email, and message POST variables are required');
-}
-if ($_POST['contact-location'] != '') {
-	exit('Please use the contact form');
-	return;
+	exit('I only support GET');
 }
 
-$name = trim($_POST['name']);
+if (empty($_GET['name']) || empty($_GET['email']) || empty($_GET['message'])) {
+	http_response_code(400);
+	exit('name, email, and message GET variables are required');
+}
+if ($_GET['location'] != '') {
+	exit('Please use the contact form');
+}
+
+$name = trim($_GET['name']);
 $name = preg_replace(['/\b"/','/"/',"/'/"], ['”','“',"’"], $name);
 
-$email = trim($_POST['email']);
+$email = trim($_GET['email']);
 $email = filter_var($email, FILTER_VALIDATE_EMAIL);
 if ($email === false) {
 	http_response_code(400);
 	exit('Invalid email');
 }
 
-$phone = trim($_POST['phone']) ;
-$phone = filter_var($phone, FILTER_SANITIZE_STRING);
+$phone = trim($_GET['phone']) ;
+$phone = strip_tags($phone);
 if ($phone !== '') {
 	$phone = "Phone: $phone";
 }
 
-$message = trim($_POST['message']);
+$message = trim($_GET['message']);
 $message = preg_replace(['/\b"/','/"/',"/'/"], ['”','“',"’"], $message);
 
 if ($notifyEmail != '') {
