@@ -77,7 +77,7 @@ $message = trim($_GET['message']);
 $message = preg_replace(['/\b"/','/"/',"/'/"], ['”','“',"’"], $message);
 
 if ($notifyEmail != '') {
-	mail($notifyEmail, "Webform query", trim("$phone\r\n\r\n$message"), "From: $name <$email>" . "\r\n");
+	mail($notifyEmail, "Webform query for $domain", trim("$phone\r\n\r\n$message"), "From: $name <$email>" . "\r\n");
 }
 
 $text = <<< EOD
