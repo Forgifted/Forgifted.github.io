@@ -7,6 +7,7 @@
 		"server/scripts/**": true,
 		"server/.gitattributes": true,
 		"server/.gitignore": true,
+		"server/bun.lockb": true,
 		"server/README.md": true,
 		"server/package-lock.json": true,
 		"server/tslint.json": true,
@@ -25,6 +26,7 @@
 		"server/node_modules/**": true,
 		"server/.gitattributes": true,
 		"server/.gitignore": true,
+		"server/bun.lockb": true,
 		"server/package-lock.json": true,
 		"server/tslint.json": true,
 		"staging/**": true,
@@ -33,5 +35,7 @@
 		"LICENSE": true,
 		"verses.json": true,
 	},
-	"search.useGlobalIgnoreFiles": true
+	"search.useGlobalIgnoreFiles": true,
+	"compile-hero.disable-compile-files-on-did-save-code": true,
+	"bun.runtime": "node_modules/@oven/bun-windows-x64-baseline/bin/bun"
 }
