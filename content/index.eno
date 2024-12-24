@@ -52,7 +52,10 @@ twoPanels: true
 pictureAlt: Girl calling on a phone
 description: Theology is best done in community. Email Michael a question about these videos, or request him to give you a call.
 endPoint: https://services.forgifted.org/contact
-
+supports:
+ - name
+ - emailLabel
+ - phone
 messages:
  - Notify~Please add me to your email prayer newsletter list and notify me when you release new material.&#10;&#10;[We send one out about once every two months.]
  - Consult~Hi, I'm a pastor/mission organization head and would like your advice on how to set up a funding/discipleship/counseling system in our church/organization based on the gift economy.

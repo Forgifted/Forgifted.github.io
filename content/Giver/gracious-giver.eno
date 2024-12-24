@@ -31,7 +31,7 @@ type: article
 -- body
 @[header](Gifts of Sanctification)
 
-@[figure](Why Consecrate From Sin?|small)
+@[figure](Why Consecrate From Sin?|smallSize)
 
 Sanctification is the God-led process of becoming like Christ and is therefore inseparable from consecration. I am indebted to HealingModels.org for this model of consecration and have provided a [link to it](https://healingmodels.org/how-can-i-see-god) in the description below. [It argues](https://healingmodels.org/how-can-i-see-god) that the reason you are separated from God is because of sin, whether they are known, unknown, or have been there so long that they’ve become strongholds. The solution is to consecrate yourself from sin, which means to repent, forgive and renounce any sin in your life to open up a channel to God. The more sin you consecrate yourself of, the bigger and freer the channel to God.
 
@@ -102,7 +102,11 @@ So in conclusion, the Holy Spirit gives Christians gifts of sanctification, edif
 
 #section
 type: contact
-supports: comments
+supports:
+ - name
+ - emailLabel
+messages:
+ - Custom~
 description: Michael personally reviews and answers these comments. Substantive discussions form the basis of new videos.
 endPoint: https://services.forgifted.org/contact
 

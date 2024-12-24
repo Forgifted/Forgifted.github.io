@@ -125,7 +125,11 @@ But wait! Jesus made it even harder to forgive with the punchline of His parable
 
 #section
 type: contact
-supports: comments
+supports:
+ - name
+ - emailLabel
+messages:
+ - Custom~
 description: Michael personally reviews and answers these comments. Substantive discussions form the basis of new videos.
 endPoint: https://services.forgifted.org/contact
 

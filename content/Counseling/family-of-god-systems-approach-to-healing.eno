@@ -103,7 +103,11 @@ Discipleship teaches Alice and Bob what they ought to do to improve their marria
 
 #section
 type: contact
-supports: comments
+supports:
+ - name
+ - emailLabel
+messages:
+ - Custom~
 description: Michael personally reviews and answers these comments. Substantive discussions form the basis of new videos.
 endPoint: https://services.forgifted.org/contact
 

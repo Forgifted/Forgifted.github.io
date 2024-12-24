@@ -116,7 +116,11 @@ Pete’s role is to pray with Alice, and encourage, witness, and support her as 
 
 #section
 type: contact
-supports: comments
+supports:
+ - name
+ - emailLabel
+messages:
+ - Custom~
 description: Michael personally reviews and answers these comments. Substantive discussions form the basis of new videos.
 endPoint: https://services.forgifted.org/contact
 

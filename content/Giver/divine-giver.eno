@@ -74,7 +74,11 @@ So to summarize, both the ancient Chinese language and the Bible agree that the 
 
 #section
 type: contact
-supports: comments
+supports:
+ - name
+ - emailLabel
+messages:
+ - Custom~
 description: Michael personally reviews and answers these comments. Substantive discussions form the basis of new videos.
 endPoint: https://services.forgifted.org/contact
 

@@ -219,7 +219,11 @@ So how do you make a disciple? Everywhere you-all go, disciple all ethnicities b
 
 #section
 type: contact
-supports: comments
+supports:
+ - name
+ - emailLabel
+messages:
+ - Custom~
 description: Michael personally reviews and answers these comments. Substantive discussions form the basis of new videos.
 endPoint: https://services.forgifted.org/contact
 

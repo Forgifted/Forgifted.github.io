@@ -143,7 +143,11 @@ You’re gifted to give, not gifted to hoard. And you’re forgiven to forgive, 
 
 #section
 type: contact
-supports: comments
+supports:
+ - name
+ - emailLabel
+messages:
+ - Custom~
 description: Michael personally reviews and answers these comments. Substantive discussions form the basis of new videos.
 endPoint: https://services.forgifted.org/contact
 
