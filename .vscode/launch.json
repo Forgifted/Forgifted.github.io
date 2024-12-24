@@ -17,17 +17,17 @@
       "internalConsoleOptions": "openOnSessionStart"
     },
 	{
-      "name": "Debug Bun",
+      "name": "Run Bun",
       "type": "bun",
       "args": ["run"],
       "request": "launch",
       "program": "Server.ts",
 	  "cwd": "${workspaceRoot}/server",
-      "stopOnEntry": true,
+      "stopOnEntry": false,
       "internalConsoleOptions": "openOnSessionStart"    
     },
     {
-      "name": "Test Program",
+      "name": "Test Everything",
       "type": "bun",
       "args": ["test"],
       "request": "launch",

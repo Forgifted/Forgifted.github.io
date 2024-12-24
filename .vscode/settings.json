@@ -1,6 +1,5 @@
 {
 	"files.exclude": {
-		".vscode/**": true,
 		"assets/**": true,
 		"docs/**": true,
 		"server/node_modules/**": true,
@@ -35,7 +34,8 @@
 		"LICENSE": true,
 		"verses.json": true,
 	},
-	"search.useGlobalIgnoreFiles": true,
+	"search.useGlobalIgnoreFiles": false,
 	"compile-hero.disable-compile-files-on-did-save-code": true,
-	"bun.runtime": "node_modules/@oven/bun-windows-x64-baseline/bin/bun"
+	"bun.runtime": "node_modules/@oven/bun-windows-x64-baseline/bin/bun",
+	"search.useIgnoreFiles": false
 }
