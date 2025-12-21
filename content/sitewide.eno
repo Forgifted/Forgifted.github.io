@@ -45,7 +45,6 @@ type: copyright
 license: cc-by
 
 #css
-$anchor-hover-color: #e53712
 $blueGradientLeft: #101825
 $blueGradientRight: #272F46
 $backgroundGradient: linear-gradient(to right, $blueGradientLeft, $blueGradientRight)
@@ -55,7 +54,7 @@ $doveLeft: 16px
 
 anchor-top-margin: -8rem
 anchor-hover-color: #0b68bb
-articleContainer-a-hover: $anchor-hover-color
+articleContainer-a-hover: #e53712
 articleContainer-padding-phone: 1rem 0
 body-background: $backgroundGradient
 body-font: Lato, sans-serif
@@ -75,7 +74,7 @@ heroOpacity: 0.4
 heroOverlay-color: #3f485d
 menu-container-padding: 10px 1rem 3px 0.5rem
 navbar-background: $backgroundGradient
-navbar-caption-color: rgb(255, 217, 83)
+navbar-caption-color: $yellow
 navbar-caption-font-size: 2.4rem
 navbar-caption-font-size-phone: unset
 navbar-caption-wrap-margin: -7px 0 0 0
