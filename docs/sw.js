@@ -1,6 +1,6 @@
-const staticCache = "Forgifted.org-cache-v4";
-var prefetchList = ["https://fonts.gstatic.com/s/lato/v17/S6u9w4BMUTPHh7USSwiPGQ.woff2","https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjx4wXg.woff2","https://fonts.gstatic.com/s/lato/v17/S6u9w4BMUTPHh6UVSwiPGQ.woff2","https://fonts.gstatic.com/s/lato/v17/S6u9w4BMUTPHh50XSwiPGQ.woff2","https://cdn.ampproject.org/v0.js","https://cdn.ampproject.org/v0/amp-sidebar-0.1.js","https://cdn.ampproject.org/v0/amp-animation-0.1.js","https://cdn.ampproject.org/v0/amp-position-observer-0.1.js","https://cdn.ampproject.org/v0/amp-youtube-0.1.js","https://cdn.ampproject.org/v0/amp-bind-0.1.js","https://cdn.ampproject.org/v0/amp-form-0.1.js"];
-var pageNames = ["spa","index","about","gifted-to-give","forgiven-to-forgive","steps-to-reconciliation","reconciliation-in-action","how-do-you-make-a-disciple","divine-giver","subversive-giver","gracious-giver","problem-with-professional-counseling-models","counseling-is-the-essential-response-to-discipleship","family-of-god-systems-approach-to-healing"];
+const staticCache = "Forgifted.org-cache-v1";
+var prefetchList = ["spa","https://fonts.gstatic.com/s/lato/v17/S6u9w4BMUTPHh7USSwiPGQ.woff2","https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjx4wXg.woff2","https://fonts.gstatic.com/s/lato/v17/S6u9w4BMUTPHh6UVSwiPGQ.woff2","https://fonts.gstatic.com/s/lato/v17/S6u9w4BMUTPHh50XSwiPGQ.woff2","https://cdn.ampproject.org/v0.js","https://cdn.ampproject.org/v0/amp-sidebar-0.1.js","https://cdn.ampproject.org/v0/amp-animation-0.1.js","https://cdn.ampproject.org/v0/amp-position-observer-0.1.js","https://cdn.ampproject.org/v0/amp-youtube-0.1.js","https://cdn.ampproject.org/v0/amp-bind-0.1.js","https://cdn.ampproject.org/v0/amp-form-0.1.js","index"];
+var imageNames = ["gifted-to-give","forgiven-to-forgive","steps-to-reconciliation","reconciliation-in-action","how-do-you-make-a-disciple","divine-giver","subversive-giver","gracious-giver","problem-with-professional-counseling-models","counseling-is-the-essential-response-to-discipleship","family-of-god-systems-approach-to-healing"];
 
 var supportsWebP = determineIfSupportWebp();
 var supportsGoogleHostedAMP = determineIfSupportsGoogleHostedAMP();
@@ -125,7 +125,7 @@ function prefetchRestOfSite(key, cache, size) {
     mHasPrefetched = true;
 
     let suffix = size == 2000 ? '' : `.${size}`;
-    pageNames.map(image => {
+    imageNames.map(image => {
         if (image != "spa" && (!(image in mSizes) || mSizes[image] < size)) {
             let key = `images/${image}.jpg`;
 
@@ -136,7 +136,7 @@ function prefetchRestOfSite(key, cache, size) {
             });
         }
     });
-    pageNames.map(image => {
+    imageNames.map(image => {
         if (!(image in mSizes)) {
             let key = '/' + (image == 'index' ? '' : image);
 
