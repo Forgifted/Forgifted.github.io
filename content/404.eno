@@ -6,3 +6,8 @@ pictureAlt: Circular maze
 type: hero
 
 cssClass: fullscreen
+
+#css
+hero-container-padding: 10rem 0 5rem 0
+hero-overlay-background-color: #3f485d
+hero-overlay-opacity: 0.4

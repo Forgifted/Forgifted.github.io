@@ -37,5 +37,4 @@ messages:
  - Custom~
 
 #css
-heroPadding: 10rem 0 10rem 0
-heroOpacity: 0
+hero-container-padding: 15rem 0 10rem 0
