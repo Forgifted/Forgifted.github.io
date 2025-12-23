@@ -62,10 +62,10 @@ card-stock-padding: 2rem 0
 card-stock-container-background: white
 card-stock-container-box-shadow: 0px 0px 13px 3px #100F35
 card-stock-container-padding: 1rem 2rem 2rem 2rem
-card-stock-section-subtitle-margin: 3rem 0 2rem 0
-contact-radio-font-size: $contactRadioFontSize
-contact-radio-font-size-tablet: 1.1rem
-contact-radio-font-size-phone: $contactRadioFontSize
+card-stock-section-subtitle-margin: 1rem 0 2rem 0
+contact-label-radio-font-size: $contactRadioFontSize
+contact-label-radio-font-size-tablet: 1.1rem
+contact-label-radio-font-size-phone: $contactRadioFontSize
 copyright-margin: 2rem 0
 hamburgerMenuBreak: 1151px
 header-background-position: 16px 34px
@@ -80,6 +80,8 @@ navbar-caption-font-size: 2.4rem
 navbar-caption-font-size-phone: unset
 navbar-logo-margin: 0 0.4rem 0 0
 navbar-logo-width: 110px
+relatedArticles-padding-tablet: unset
+relatedArticles-padding-phone: 2rem 0 3rem 0
 scrollToTopButton-color: #5D9EFF
 scrollTarget-top: -130px
 section1Wrapper-padding: 0 0 2rem 0
@@ -88,8 +90,7 @@ section-container-padding-tablet: 1rem 2rem 2rem 2rem
 section1Wrapper-padding-phone: 1rem 0 0 0
 section3Wrapper-padding: 2rem 0 4rem 0
 section3Wrapper-padding-phone: 2rem 0 2rem 0
-sectionRelatedArticles-padding-tablet: unset
-sectionRelatedArticles-padding-phone: 2rem 0 3rem 0
+section-subtitle-color: black
 section-subtitle-font-weight: 400
 tocLeft-h2-margin: 0 0 1rem 0
 topWrapper-background: url("images/sectionFirst.svg") no-repeat border-box
